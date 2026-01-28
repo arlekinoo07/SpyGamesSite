@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+#root {
+  margin: 0 auto;
+}
+body {
+  font-family: 'Comfortaa', cursive;
+}
+html, body {
+  background-color: #222222;
+  margin: 0;
+  padding: 0;
+}
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+@keyframes slideIn {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
